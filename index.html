@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Mobile</title>
+    <script
+      src="https://kit.fontawesome.com/2d323a629b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <!-- Video Player -->
+    <section class="player">
+      <video controls src="video/mov.mp4"></video>
+    </section>
+
+    <!-- Video info & Up next -->
+    <div class="infoAndUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#Sujeong</li>
+            <li>#SueVideo</li>
+            <li>#Nature</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp"
+              >Sujeong Video: 서울 속 자연 함께 바라보기 | 흔들리는 나뭇잎과
+              물결 | Looking at the nature in Seoul together | Swaying leaves
+              and waves
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">1M views 1 month ago</span>
+        </div>
+        <!-- Actions buttons -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <!-- Channel description -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="img/img.jpg" alt="" />
+            <div class="info">
+              <span class="name">sujeong</span>
+              <span class="subscribers">83k subcribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+
+      <!-- Up next -->
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="img/2.jpg" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >Sujeong Video: 고양이들이 사는 섬에 놀러가다. | 배를 타고 한
+                시간이면 도착하는 고양이들과 사람이 함께 사는 섬 | 일본 여행
+              </span>
+              <span class="name">suejong</span>
+              <span class="views">83K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="img/3.JPG" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >Sujeong Video: 기차와 지하철을 타고 호두국 여행하다. | 지상철
+                신기해하는 사람과 떠나는 여행 | 천안 여행
+              </span>
+              <span class="name">sujeong</span>
+              <span class="views">58K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="img/4.jpg" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title"
+                >Sujoeng Video: 해가 지는 모습이 예쁜 서울 한강을 바라보다. |
+                사진과 동영상으로 시간이 흐르는 한강 바라보기 | 서울
+                이야기</span
+              >
+              <span class="name">sujeong</span>
+              <span class="views">63K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
